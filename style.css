@@ -15,14 +15,15 @@
   font-weight: 200;
 }
 
-:root{
-    --text-primary:#414141;
-    --text-secondary: #9f9f9f ;
-    --bg-primary:#4a4a4a;
+:root {
+  --text-primary: #414141;
+  --text-secondary: #9f9f9f;
+  --bg-primary: #4a4a4a;
 }
 
 * {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 .navbar {
@@ -59,13 +60,12 @@
 }
 
 .display-grid {
-display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
-  
 }
 
 .header {
-    height: 86vh;
+  height: 86vh;
 }
 
 .header-img {
@@ -99,86 +99,111 @@ display: grid;
   padding-right: 220px;
 }
 
-.title{
-    color: var(--text-primary);
-    font-size: 2.2rem;
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 0px;
-    line-height: 1.2;
+.title {
+  color: var(--text-primary);
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: 1.2;
 }
 
-.desc{
-    color: var(--text-secondary);
-    font-size: 1.1rem;
-    line-height: 1.5;
-    justify-content: center;
-
+.desc {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.5;
+  justify-content: center;
 }
 
-.customer-section{
-    display: flex;
-    align-items: center;
+.customer-section {
+  display: flex;
+  align-items: center;
 }
 
 .customer-section h2 {
-    margin-bottom: 20px;
-
+  margin-bottom: 20px;
 }
 
-.small-content{
-    padding: 0 15%;
+.small-content {
+  padding: 0 15%;
 }
 
-.company-list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+.company-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.company-logo{
-    height: 60px;
-    width: 150px;
-    object-fit: contain;
-    margin: 10px 0;
+.company-logo {
+  height: 60px;
+  width: 150px;
+  object-fit: contain;
+  margin: 10px 0;
 }
 
-.service-card{
-    position: relative;
-    background: url(assets/images/laptop.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
+.service-card {
+  position: relative;
+  background: url(assets/images/laptop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
 }
 
 .service-card h2,
-.service-card p{
-    color: white;
+.service-card p {
+  color: white;
 }
 
-.service-content{
-    position: absolute;
-    top: 7%;
-    right: 7%;
-    text-align: right;
+.service-content {
+  position: absolute;
+  top: 7%;
+  right: 7%;
+  text-align: right;
 }
 
-.button{
-    background: var(--text-primary);
-    padding: 10px 20px;
-    text-decoration: none;
-    color: white;
-    border: none;
-    font-size: 1.1rem;
-    font-weight: 600;
-    display: block;
-    text-align: center;
-    width: 100%;
+.button {
+  background: var(--text-primary);
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  width: 100%;
 }
 
-.service-text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.service-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--bg-primary);
+}
+.contact-form h2 {
+  text-align: center;
+}
+
+.contact-form {
+  padding-left: 20px;
+}
+.input-group {
+  margin-top: 20px;
+}
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  border-top: 1px solid var(--bg-primary);
+}
+
+.section-gap {
+  margin-top: 30px;
 }
