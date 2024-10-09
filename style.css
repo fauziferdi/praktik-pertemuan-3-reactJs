@@ -143,3 +143,7 @@ display: grid;
     object-fit: contain;
     margin: 10px 0;
 }
+
+.serrvice-card{
+    position: relative;
+}
